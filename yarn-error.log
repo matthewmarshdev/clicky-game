@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Matthew\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Matthew\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT;C:\PROGRAM FILES\INTEL\ICLS CLIENT;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\SKYPE\PHONE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Users\Matthew\AppData\Local\Microsoft\WindowsApps;C:\Users\Matthew\AppData\Local\GitHubDesktop\bin;C:\Users\Matthew\AppData\Roaming\npm;C:\Users\Matthew\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\Matthew\AppData\Local\Microsoft\WindowsApps;C:\Users\Matthew\AppData\Local\GitHubDesktop\bin;C:\Users\Matthew\AppData\Roaming\npm;C:\Users\Matthew\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\sfdx\bin;C:\Program Files\Heroku\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "c:\\Users\\Matthew\\Desktop\\GitHub\\clicky-game"
+      at new MessageError (C:\Users\Matthew\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\Matthew\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Matthew\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Matthew\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>

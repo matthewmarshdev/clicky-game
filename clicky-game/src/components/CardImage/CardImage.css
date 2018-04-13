@@ -1,0 +1,19 @@
+.images{
+    border-width: 5px;
+    border-color: rgb(245, 245, 245);
+    border-style: solid;
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    /* padding: 10px; */
+    margin: 20px;
+    -webkit-transition: box-shadow .2s;
+    -webkit-transition-delay: .1s;
+    transition: box-shadow .2s;
+    transition-delay: .1s;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.images:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 30px 0 rgba(0, 0, 0, 0.5);   
+}
