@@ -1,14 +1,28 @@
 import React, { Component } from "react";
 import "./App.css";
 import cardInfo from "./cards.json";
-import ImageCard from "./components/CardImage/CardImage.js";
+import CardImage from "./components/CardImage/CardImage.js";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 
 class App extends Component {
   state = {
-    cardInfo
+    cardInfo,
+    score: 1,
+    topScore: 0
   };
+
+addScore = () => {
+  this.setState({ score: this.state.score + 1 });
+  {cards: this.state.cards.clicked}
+  console.log(this.state.score);
+  
+  console.log();
+};
+
+endGame = () => {};
+
+gameLogic = () => {};
 
   randomizeImages = () => {
     const cardInfo = this.state.cardInfo.sort(image => {
@@ -17,14 +31,17 @@ class App extends Component {
     this.setState({ cardInfo });
   };
 
+
+
   render() {
     return (
       <div>
         <Title />
         <Wrapper>
           {this.state.cardInfo.map(card => (
-            <ImageCard
+            <CardImage
               randomizeImages={this.randomizeImages}
+              addScore={this.addScore}
               id={card.id}
               key={card.id}
               image={card.image}

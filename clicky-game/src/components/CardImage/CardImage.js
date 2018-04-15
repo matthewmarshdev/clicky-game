@@ -8,7 +8,7 @@ const CardImage = props => {
                 className="images"
                 alt={props.name}
                 src={props.image}
-                onClick={() => props.randomizeImages()}
+                onClick={() => {props.randomizeImages(); props.addScore()}}
             />
         </div>
     );

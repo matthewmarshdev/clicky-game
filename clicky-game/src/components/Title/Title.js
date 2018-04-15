@@ -4,7 +4,7 @@ import "./Title.css";
 
 const Title = () => (
     <div className="header">
-        <h1 className="title">Clicky Game</h1>
+        <h1 className="title">The Costumed Vegas Click Game!</h1>
     </div>
 );
 
